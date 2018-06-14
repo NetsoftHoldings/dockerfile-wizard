@@ -6,7 +6,7 @@ image_config: &image_config
 
   IMAGE_NAME: hubstaff-core
 
-  IMAGE_TAG: ruby2.2.5-node8.11.3-jessie
+  IMAGE_TAG: ruby2.4.4-node8.11.3-jessie
 
   # NOTE: if you're modifying this config.yml file manually
   # rather than using the included setup script,
@@ -15,7 +15,7 @@ image_config: &image_config
 
   LINUX_VERSION: DEBIAN_JESSIE
 
-  RUBY_VERSION_NUM: 2.2.5
+  RUBY_VERSION_NUM: 2.4.4
 
   NODE_VERSION_NUM: 8.11.3
 
